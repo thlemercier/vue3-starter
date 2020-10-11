@@ -1,0 +1,11 @@
+{
+	"vw": {
+		"prefix": "vw",
+		"body": [
+			"watch(() => [ ${1:variable} ], ([${2:newVal}, ${3:oldVal}]: ${4:Type}[]) => {",
+			"  ${0}",
+			"})"
+		],
+		"description": "vw"
+	}
+}

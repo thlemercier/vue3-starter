@@ -1,0 +1,36 @@
+{
+	"dfcp": {
+		"prefix": "dfcp",
+		"body": [
+			"import { PropType } from 'vue'",
+			"",
+			"export interface InputProps {",
+			"  test: boolean",
+			"  // open: boolean",
+			"  // on: OnEventOptions >> Enum",
+			"}",
+			"",
+			"export const inputProps = {",
+			"  test: {",
+			"    type: Boolean,",
+			"    default: false,",
+			"  },",
+			"  // on: {",
+			"  //   type: String as PropType<OnEventOptions>,  >> Enum",
+			"  //   default: EventOption.HOVER,",
+			"  // },",
+			"}",
+			"",
+			"export interface TemplateProps {",
+			"  test: string",
+			"}",
+			"",
+			"export const EmittedEvents = {",
+			"  OnOpen: 'onOpen',",
+			"  OnClose: 'onClose',",
+			"}",
+			""
+		],
+		"description": "dfcp"
+	}
+}

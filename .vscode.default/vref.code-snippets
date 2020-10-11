@@ -1,0 +1,9 @@
+{
+	"vref": {
+		"prefix": "vref",
+		"body": [
+		  "const ${1:name}: Ref<${2:Type}> = ref(${3:value})"
+		],
+		"description": "vref"
+	  }
+}

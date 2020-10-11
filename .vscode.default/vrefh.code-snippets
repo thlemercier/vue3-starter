@@ -1,0 +1,10 @@
+{
+	"vrefh": {
+		"prefix": "vrefh",
+		"body": [
+		  "// Dom Reference for the ${2:...}",
+		  "const ${1:name}Ref: Ref<HTMLElement | null> = ref(null)"
+		],
+		"description": "vrefh"
+	  }
+}

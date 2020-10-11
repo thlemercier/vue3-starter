@@ -1,0 +1,31 @@
+{
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "vue",
+        "vue-html",
+        "html"
+    ],
+    "vetur.format.enable": false,
+    "vetur.experimental.templateInterpolationService": true,
+    "vetur.validation.templateProps": true,
+    "html.format.enable": false,
+    "vetur.validation.template": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html"
+    },
+    "vetur.completion.tagCasing": "initial",
+}

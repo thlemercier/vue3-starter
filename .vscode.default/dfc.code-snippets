@@ -1,0 +1,37 @@
+{
+	"dfc": {
+		"prefix": "dfc",
+		"body": [
+			"<script lang=\"ts\">",
+			"import { defineComponent, SetupContext } from 'vue'",
+			"import {",
+			"  InputProps,",
+			"  inputProps,",
+			"  TemplateProps,",
+			"  EmittedEvents,",
+			"} from './${1:ComponentName}.props'",
+			"",
+			"export default defineComponent({",
+			"  name: '${1:ComponentName}',",
+			"  props: inputProps,",
+			"  setup (props: Readonly<InputProps>, context: SetupContext): TemplateProps {",
+			"    // State",
+			"    // Private Functions",
+			"    // Visible Functions",
+			"    // LifeCycle",
+			"    // Watchers",
+			"    return {}",
+			"  }",
+			"})",
+			"</script>",
+			"",
+			"<!-- Add \"scoped\" attribute to limit CSS to this component only -->",
+			"<style lang=\"scss\" scopped src=\"./${1:ComponentName}.scss\"></style>",
+			"<template>",
+			"  <!-- INSERT HTML HERE -->",
+			"</template>",
+			""
+		],
+		"description": "dfc"
+	}
+}
