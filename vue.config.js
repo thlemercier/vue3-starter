@@ -15,9 +15,9 @@ module.exports = {
     sourceMap: true,
     loaderOptions: {
       sass: {
-        // prependData: `
-        //   @import "@/core/styles/colors_module.scss";
-        // `,
+        prependData: `
+          @import "@/core/styles/_variables.module.scss";
+        `,
       },
     },
   },

@@ -7,7 +7,7 @@
 
   #layout-header {
     background: #fff;
-    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+    box-shadow: $shade_black_lighter $zero $xxs $xs, $shade_black $zero $xxs $xs;
     height: 100%;
     width: 100%;
   }
